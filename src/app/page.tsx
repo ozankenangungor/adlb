@@ -8,7 +8,6 @@ import * as echarts from 'echarts';
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [showBookingModal, setShowBookingModal] = useState(false);
 
   const testimonials = [
